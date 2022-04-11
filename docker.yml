@@ -24,8 +24,8 @@
         state: present
         filename: docker
 
-    - name: Install docker-ce
+    - name: Install docker.io
       ansible.builtin.apt:
-        name: "docker-ce"
+        name: "docker.io"
         state: latest
         update_cache: true
